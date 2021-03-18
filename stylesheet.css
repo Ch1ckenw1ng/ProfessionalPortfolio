@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgba(13, 13, 148, 0.541);
+    color: white;
+    font-size:280%;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: rgba(13, 13, 148, 0.541);
+    color: white;
+    font-size:150%
+}
+
+.boxes{
+    flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgba(13, 13, 148, 0.541);
+    margin: 5px 5px 5px 5px;
+}
+
+#box1{
+    
+}
+
+   /* margin-top: 0px auto;
+    margin-left: 0px auto;
+}
+*/
+
+img{
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+    max-width: max-content;
+    max-height: fit-content;  
+
+}
+
+details:hover {
+    color: red;
+}
+
